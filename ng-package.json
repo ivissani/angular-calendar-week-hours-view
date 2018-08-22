@@ -4,5 +4,5 @@
         "entryFile": "public_api.ts",
         "comments" : "none"
     },
-    "whitelistedNonPeerDependencies": ["angular","core-js", "rxjs", "zone.js"]
+    "whitelistedNonPeerDependencies": ["angular","core-js", "rxjs", "zone.js", "calendar-utils"]
 }
