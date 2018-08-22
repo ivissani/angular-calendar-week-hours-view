@@ -26,10 +26,7 @@
     },
     "private": false,
     "dependencies": {
-        "@angular/animations": "5.2.4",
-        "@angular/common": "5.2.4",
         "@angular/compiler": "5.2.4",
-        "@angular/core": "5.2.4",
         "@angular/forms": "5.2.4",
         "@angular/http": "5.2.4",
         "@angular/platform-browser": "5.2.4",
@@ -41,6 +38,9 @@
         "zone.js": "^0.8.18"
     },
     "devDependencies": {
+        "@angular/animations": "5.2.4",
+        "@angular/common": "5.2.4",
+        "@angular/core": "5.2.4",
         "@angular/cli": "^1.7.3",
         "@angular/compiler-cli": "5.2.4",
         "@angular/language-service": "5.2.4",
@@ -65,6 +65,9 @@
         "typescript": "~2.4.2"
     },
     "peerDependencies": {
+        "@angular/animations": "5.2.4",
+        "@angular/common": "5.2.4",
+        "@angular/core": "5.2.4",
         "angular-calendar": "^0.24.1",
         "calendar-utils": "0.1.2",
         "angular-draggable-droppable": "^2.0.0",
