@@ -157,7 +157,16 @@ export class CalendarWeekHoursDayViewComponent
     /**
      * The width in pixels of each event on the view
      */
-    @Input() eventWidth = 150;
+    _eventWidth = 150;
+    @Input() set eventWidth(value : number){
+        console.log('eventWidht: ', this.eventWidth);
+        this._eventWidth = this.eventWidth;
+        this.refreshView();
+        this.cdr.detectChanges();
+    };
+    get eventWidth() {
+        return this._eventWidth;
+    }
 
     /**
      * An observable that when emitted on will re-render the current view
@@ -331,7 +340,6 @@ export class CalendarWeekHoursDayViewComponent
             changes.eventWidth
         ) {
             this.refreshView();
-            this.cdr.detectChanges();
         }
     }
 
