@@ -1,0 +1,71 @@
+{
+  "name": "angular-calendar-week-hours-view",
+  "version": "1.0.2",
+  "license": "MIT",
+  "author": "Innqube",
+  "keywords": [
+    "angular-calendar",
+    "week",
+    "week view",
+    "week hours",
+    "week schedule"
+  ],
+  "repository": {
+    "url": "https://github.com/Innqube/angular-calendar-week-hours-view"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/compiler": "5.2.4",
+    "@angular/forms": "5.2.4",
+    "@angular/http": "5.2.4",
+    "@angular/platform-browser": "5.2.4",
+    "@angular/platform-browser-dynamic": "5.2.4",
+    "@angular/router": "5.2.4",
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "@angular/animations": "5.2.4",
+    "@angular/common": "5.2.4",
+    "@angular/core": "5.2.4",
+    "@angular/cli": "^1.7.3",
+    "@angular/compiler-cli": "5.2.4",
+    "@angular/language-service": "5.2.4",
+    "@types/jasmine": "~2.5.53",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/node": "~6.0.60",
+    "angular-calendar": "^0.24.1",
+    "calendar-utils": "^0.1.2",
+    "codelyzer": "^4.0.1",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "~1.7.0",
+    "karma-chrome-launcher": "~2.1.1",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^2.4.4",
+    "protractor": "~5.1.2",
+    "scss-bundle": "^2.1.0",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
+    "typescript": "~2.4.2",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.18"
+  },
+  "peerDependencies": {
+    "@angular/animations": "5.2.4",
+    "@angular/common": "5.2.4",
+    "@angular/core": "5.2.4",
+    "angular-calendar": "^0.24.1",
+    "calendar-utils": "0.1.2",
+    "angular-draggable-droppable": "^2.0.0",
+    "angular-resizable-element": "^2.0.0"
+  },
+  "main": "bundles/angular-calendar-week-hours-view.umd.js",
+  "module": "esm5/angular-calendar-week-hours-view.js",
+  "es2015": "esm2015/angular-calendar-week-hours-view.js",
+  "typings": "angular-calendar-week-hours-view.d.ts",
+  "metadata": "angular-calendar-week-hours-view.metadata.json"
+}
