@@ -331,7 +331,7 @@ export class CalendarWeekHoursDayViewComponent
             changes.eventWidth
         ) {
             this.refreshView();
-            this.cdr.markForCheck();
+            this.cdr.detectChanges();
         }
     }
 
