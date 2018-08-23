@@ -31,8 +31,7 @@
         "@angular/http": "5.2.4",
         "@angular/platform-browser": "5.2.4",
         "@angular/platform-browser-dynamic": "5.2.4",
-        "@angular/router": "5.2.4",
-        "calendar-utils": "^0.1.2"
+        "@angular/router": "5.2.4"
     },
     "devDependencies": {
         "@angular/animations": "5.2.4",
@@ -45,6 +44,7 @@
         "@types/jasminewd2": "~2.0.2",
         "@types/node": "~6.0.60",
         "angular-calendar": "^0.24.1",
+        "calendar-utils": "^0.1.2",
         "codelyzer": "^4.0.1",
         "jasmine-core": "~2.6.2",
         "jasmine-spec-reporter": "~4.1.0",
